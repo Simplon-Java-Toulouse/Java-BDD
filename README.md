@@ -7,19 +7,33 @@ veille sur les SGBD
 Retour sur les corrections des exercices précédents + introduction du mécanisme d'Exception
 
 Install mariadb + prise en main sous ubuntu + Executer le script Shop.sql 
+
 11.1 Afficher les tables de la base de donnée Shop
+
 11.2 Trouver un moyen de décrire une table
+
 11.3 Afficher la table des utilisateurs
+
 11.4 Ajouter à celle-ci votre nom + login uniquement, que remarquez vous sur l'idUser ?
+
 11.5 Afficher-la, si votre nom, n'apparait pas, il faut revenir à l'étape précédente
+
 11.6 Remplacer votre password et afficher la table pour vérifier si vos modifications ont été prises en compte
+
 11.7 Supprimer un utilisateur de votre table et afficher la table pour vérifier si c'est bon
+
 11.8 Regarder bien la description de la table, Supprimer la puis crée la à l'identique
+
 11.9 Dans la table des articles, selectionner les articles dont le prix est supérieur à 100
+
 11.10 Selectionner les articles dont le prix est compris entre 50 et 150 
+
 12.11 Afficher les articles dans l'ordre croissant des prix
+
 12.12 Afficher uniquement la description des articles
+
 12.13 Afficher à l'aide d'une jointure, les utilisateurs qui sont administrateurs
+
 12.14 Afficher les utilisateurs qui sont administrateurs et dont le login est Anderson
 
 Note : toutes les requetes doivent être testé et repertorié dans un fichier à valider avec vos formateurs
