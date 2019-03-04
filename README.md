@@ -14,7 +14,7 @@ Install mariadb + prise en main sous ubuntu + Executer le script Shop.sql
 
 11.3 Afficher la table des utilisateurs
 
-11.4 Ajouter à celle-ci votre nom + login uniquement, que remarquez vous sur l'idUser ?
+11.4 Ajouter à celle-ci votre login + pwd uniquement, que remarquez vous sur l'idUser ?
 
 11.5 Afficher-la, si votre nom, n'apparait pas, il faut revenir à l'étape précédente
 
