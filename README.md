@@ -28,13 +28,13 @@ Install mariadb + prise en main sous ubuntu + Executer le script Shop.sql
 
 11.10 Selectionner les articles dont le prix est compris entre 50 et 150 
 
-12.11 Afficher les articles dans l'ordre croissant des prix
+11.11 Afficher les articles dans l'ordre croissant des prix
 
-12.12 Afficher uniquement la description des articles
+11.12 Afficher uniquement la description des articles
 
-12.13 Afficher à l'aide d'une jointure, les utilisateurs qui sont administrateurs
+11.13 Afficher à l'aide d'une jointure, les utilisateurs qui sont administrateurs
 
-12.14 Afficher les utilisateurs qui sont administrateurs et dont le login est Anderson
+11.14 Afficher les utilisateurs qui sont administrateurs et dont le login est Anderson
 
 Note : toutes les requetes doivent être testé et repertorié dans un fichier à valider avec vos formateurs
 
@@ -43,15 +43,15 @@ veille sur le langage SQL + règles des clés primaires et étrangères
 
 En ligne de commande uniquement :
 
-13.1 créer une nouvelle base de donné "Bank"
+12.1 créer une nouvelle base de donné "Bank"
 
-13.2 créer 2 tables, une pour les clients(CodeCli,nom,prénom) et une pour les comptes(NumCpte,solde,CodeCli);
+12.2 créer 2 tables, une pour les clients(CodeCli,nom,prénom) et une pour les comptes(NumCpte,solde,CodeCli);
 
-13.3 ajouter des clients et des comptes associés sachant qu'un client peut avoir plusieurs comptes
+12.3 ajouter des clients et des comptes associés sachant qu'un client peut avoir plusieurs comptes
 
-13.4 afficher tous les comptes d'une personne
+12.4 afficher tous les comptes d'une personne
 
-13.5 une fois toutes vos requetes réalisées avec succès, supprimer la base Bank
+12.5 une fois toutes vos requetes réalisées avec succès, supprimer la base Bank
 
 Note : toutes les requetes doivent être testé et repertorié dans un fichier à valider avec vos formateurs
 
@@ -63,15 +63,15 @@ Créer un projet Shop + ajouter les drivers mariadb(.jar) après les avoir tél�
 
 Dans une classe TestShop par exemple, après avoir initialiser tous les éléments indispensables à votre connection vers votre base Shop, réalisez les requetes suivantes :
 
-14.1 Ajouter à la table des utilisateurs une nouvelle occurence puis afficher la sur votre terminal pour vérification
+13.1 Ajouter à la table des utilisateurs une nouvelle occurence puis afficher la sur votre terminal pour vérification
 
-14.2 Remplacer votre password et vérifier sur votre terminal si c'est bon
+13.2 Remplacer votre password et vérifier sur votre terminal si c'est bon
 
-14.3 Supprimer un utilisateur de votre table et vérifier
+13.3 Supprimer un utilisateur de votre table et vérifier
 
-14.4 Afficher toutes les occurences de la table des utilisateurs
+13.4 Afficher toutes les occurences de la table des utilisateurs
 
-14.5 Ajouter une classe Article à votre programme qui correspond à votre table T_Articles puis dans votre prog de test, ajouter une liste d'articles qui contiendra tous les articles que vous pourrez afficher via cette liste.
+13.5 Ajouter une classe Article à votre programme qui correspond à votre table T_Articles puis dans votre prog de test, ajouter une liste d'articles qui contiendra tous les articles que vous pourrez afficher via cette liste.
 
 **JEUDI :**
 Veille sur la Gestion des fichiers avec Java 
@@ -81,26 +81,26 @@ kata : Réaliser le projet Bank, cette fois ci sous Eclipse et en partant de rie
 
 Révisions
 
-15.1 Maintenant que votre base est crée, Créer le package co.simplon.dao dans lequel vous continuerez vos travaux
+14.1 Maintenant que votre base est crée, Créer le package co.simplon.dao dans lequel vous continuerez vos travaux
 
-15.2 Utiliser un fichier de configuration pour pouvoir changer de SGBD sans devoir toucher votre code
+14.2 Utiliser un fichier de configuration pour pouvoir changer de SGBD sans devoir toucher votre code
 
-15.3 Utiliser le pattern Singleton afin de vous assurer qu'une seule connection à votre base est ouverte
+14.3 Utiliser le pattern Singleton afin de vous assurer qu'une seule connection à votre base est ouverte
 
-15.4 Utiliser le pattern DAO(voir d'abord ce qu'est la généricité) pour réaliser les classes ClientDao et CompteDao avec les methodes find(CodeCli) qui renvoi un objet Client grâce à son CodeCli, create(Client) qui insert un client dans sa table, update(Client) qui met à jour un client et delete(Client) qui supprime un client.
+14.4 Utiliser le pattern DAO(voir d'abord ce qu'est la généricité) pour réaliser les classes ClientDao et CompteDao avec les methodes find(CodeCli) qui renvoi un objet Client grâce à son CodeCli, create(Client) qui insert un client dans sa table, update(Client) qui met à jour un client et delete(Client) qui supprime un client.
 
-15.5 Réaliser une classe TestDao contenant un main pour vérifier toutes les fonctionnalités de vos composants.
+14.5 Réaliser une classe TestDao contenant un main pour vérifier toutes les fonctionnalités de vos composants.
 
-15.6 Comment gérer les différents risques telles qu'une création d'un client qui existe déjà ? des requetes malveillantes ? ...
+14.6 Comment gérer les différents risques telles qu'une création d'un client qui existe déjà ? des requetes malveillantes ? ...
 
 **VENDREDI :**
 Veille sur les attaques par injection sql
 
-16.1 Reprener votre projet Bank et trouver un moyen d'éviter les attaques par injection Sql
+15.1 Reprener votre projet Bank et trouver un moyen d'éviter les attaques par injection Sql
 
-16.2 Trouver un moyen pour visualiser vos bases de données sous Eclipse
+15.2 Trouver un moyen pour visualiser vos bases de données sous Eclipse
 
-16.3 Bonus : Réaliser un programme permettant de visualiser le contenu de vos lecteurs (fichiers et répertoires)
+15.3 Bonus : Réaliser un programme permettant de visualiser le contenu de vos lecteurs (fichiers et répertoires)
 
 finir tous les TP et envoyer sur github au plutard dimanche soir
 
