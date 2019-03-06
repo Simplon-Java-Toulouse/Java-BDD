@@ -78,6 +78,7 @@ Veille sur la Gestion des fichiers avec Java
 & les Design pattern
 
 kata : Réaliser le projet Bank, cette fois ci sous Eclipse et en partant de rien !
+       Comment automatiser la création de notre Base de donnée (+ insertions) ?
 
 Révisions
 
