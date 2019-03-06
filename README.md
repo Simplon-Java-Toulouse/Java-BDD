@@ -45,7 +45,7 @@ En ligne de commande uniquement :
 
 12.1 créer une nouvelle base de donné "Bank"
 
-12.2 créer 2 tables, une pour les clients(CodeCli,nom,prénom) et une pour les comptes(NumCpte,solde,CodeCli);
+12.2 créer 2 tables, une pour les clients(CodeCli,Nom,Prenom) et une pour les comptes(NumCpte,Solde,CodeCli);
 
 12.3 ajouter des clients et des comptes associés sachant qu'un client peut avoir plusieurs comptes
 
@@ -88,7 +88,7 @@ Révisions
 
 14.3 Utiliser le pattern Singleton afin de vous assurer qu'une seule connection à votre base est ouverte
 
-14.4 Utiliser le pattern DAO(voir d'abord ce qu'est la généricité) pour réaliser les classes ClientDao et CompteDao avec les methodes find(CodeCli) qui renvoi un objet Client grâce à son CodeCli, create(Client) qui insert un client dans sa table, update(Client) qui met à jour un client et delete(Client) qui supprime un client.
+14.4 Utiliser le pattern DAO(voir d'abord ce qu'est la généricité) pour réaliser les classes ClientDao et CompteDao avec les methodes find(CodeCli) qui renvoi un objet Client grâce à son CodeCli, create(Client) qui insert un client dans sa table, update(Client) qui met à jour un client et delete(Client) qui supprime un client, idem pour CompteDao.
 
 14.5 Réaliser une classe TestDao contenant un main pour vérifier toutes les fonctionnalités de vos composants.
 
