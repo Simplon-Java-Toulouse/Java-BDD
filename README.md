@@ -94,6 +94,8 @@ Révisions
 
 14.6 Comment gérer les différents risques telles qu'une création d'un client qui existe déjà ? des requetes malveillantes ? ...
 
+Note : n'oubliez pas de documenter vos codes idéalement via javadoc
+
 **VENDREDI :**
 Veille sur les attaques par injection sql
 
